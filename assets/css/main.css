@@ -2330,6 +2330,7 @@ button:hover,
 .button:hover {
   box-shadow: inset 0 0 0 2px #18bfef;
   color: #18bfef !important;
+  cursor: default;
 }
 
 input[type="submit"].primary,
@@ -4882,4 +4883,15 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   height: 75px;
   width: 75px;
   margin: 15px;
+}
+
+.profile-img {
+  height: 350px;
+  width: 350px;
+  margin: 15px;
+  box-shadow: 3px 3px 20px #aaaaaa;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
